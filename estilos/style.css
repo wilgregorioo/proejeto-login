@@ -3,5 +3,51 @@
 /*
     Paleta de cores
     Cinza: #5A5D75
-    Cinza escuro: #41414B
+    Cinza escurof: #41414B
 */
+
+* { 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #696980;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: rgb(124, 116, 116);
+    height: 500px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+}
+
+section#login > div#imagem {
+    display: block;
+    background: rgb(124, 116, 116) url(../imagens/pexels-igor-visuals-3681805.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+
+}
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+
+}
