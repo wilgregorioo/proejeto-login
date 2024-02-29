@@ -47,8 +47,8 @@ section#login > div#imagem {
     background: rgb(124, 116, 116) url(../imagens/pexels-igor-visuals-3681805.jpg) no-repeat;
     background-size: cover;
     height: 200px;
-
 }
+
 section#login > div#formulario {
     display: block;
     padding: 10px;
@@ -88,17 +88,17 @@ div.campo > span {
 div.campo > input {
     background-color: #aab1add6;
     font-size: 1em;
-    width: calc(100% - 44px);
+    width: calc(100% - 45px);
     height: 100%;
-    border: 0px;
+    border: none;
     border-radius: 5px;
     padding: 4px;
 
-    transform: translateY(-41px);
+    transform: translateY(-13px);
 }
 
 div.campo > input:focus-within {
-    background-color: white;
+    background-color: rgb(199, 199, 199)
 
 }
 
